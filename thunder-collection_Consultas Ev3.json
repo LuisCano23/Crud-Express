@@ -1,0 +1,130 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Consultas Ev3",
+    "collectionId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+    "dateExported": "2024-07-07T19:58:26.200Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a0203a86-fce8-4af2-ba74-b2039c1db0d5",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "ViewAllCanciones",
+            "url": "localhost:3000/canciones",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-07T19:38:11.637Z",
+            "modified": "2024-07-07T19:38:30.112Z",
+            "headers": []
+        },
+        {
+            "_id": "3ace769e-efb1-4cb5-adf4-1dd6e279dc21",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "ViewOneCanciones",
+            "url": "localhost:3000/canciones/3",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-07T19:40:05.209Z",
+            "modified": "2024-07-07T19:40:23.118Z",
+            "headers": []
+        },
+        {
+            "_id": "d68cf06b-c6b8-43b7-a109-996386096e44",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "RegisterUser",
+            "url": "localhost:3000/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-07T19:42:46.039Z",
+            "modified": "2024-07-07T19:43:37.467Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"xyz@gmail.com\",\n  \"pass\" : \"0321\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1d0ed778-badf-4462-a6fb-fd84bf650d94",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "LoginUser",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-07T19:44:34.764Z",
+            "modified": "2024-07-07T19:46:05.452Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"xyz@gmail.com\",\n  \"pass\" : \"0321\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b2413924-da44-4363-ba28-806b38bc5f9c",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "EditOneCanciones",
+            "url": "localhost:3000/canciones/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-07-07T19:47:12.701Z",
+            "modified": "2024-07-07T19:49:34.909Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh5ekBnbWFpbC5jb20iLCJpYXQiOjE3MjAzODE1NjV9.tDbm7nm44vKfoQb0iG0f9TroEA4nbcxqtE00sLFzc8g"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Diamonds\",\n  \"reproducciones\": 5,\n  \"artista\": \"Rihana\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "676b5b17-a1ff-4c9b-b488-0aaeca86274a",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "AddCanciones",
+            "url": "localhost:3000/canciones",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-07-07T19:51:40.153Z",
+            "modified": "2024-07-07T19:54:32.647Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh5ekBnbWFpbC5jb20iLCJpYXQiOjE3MjAzODE1NjV9.tDbm7nm44vKfoQb0iG0f9TroEA4nbcxqtE00sLFzc8g"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\" : \"Just Dance\",\n  \"artista\" : \"Lady Gaga\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8cfa7c17-b989-4cd1-a8c2-72285d83a9f3",
+            "colId": "9be29f75-1630-40e9-bca9-9e4702714e99",
+            "containerId": "",
+            "name": "DeleteOneCanciones",
+            "url": "localhost:3000/canciones/2",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-07-07T19:55:23.191Z",
+            "modified": "2024-07-07T19:55:56.227Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inh5ekBnbWFpbC5jb20iLCJpYXQiOjE3MjAzODE1NjV9.tDbm7nm44vKfoQb0iG0f9TroEA4nbcxqtE00sLFzc8g"
+                }
+            ]
+        }
+    ],
+    "ref": "ZkriYZXT99nTv15xsQGvz8Ecfd4Vr0-edB5QAPLEJMEKL21J_zQDINkqCI_V9qBiVN4Nl1DXthkIOWv1IsliMA"
+}
